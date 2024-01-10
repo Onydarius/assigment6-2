@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header-footer {
+	border-bottom: 1px solid;
+	border-color: #729EFF;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%,
+		rgba(140, 172, 255, 1) 100%);
+	height: 80px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.logout-menu {
+	position: absolute; top : 0px; right : 100px;
+	height: 80px !important;
+	display: flex;
+	width: inherit;
+}
+
+.center-div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text-1{
+	font-size: 15px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.legend {
+	color: #0d6efd;
+	font-family: Arial;
+}
+
+.fieldset {
+	border: 2px solid;
+	border-color: #D1D1D1;
+	border-radius: 5px;
+	padding: 30px 50px;
+}
+
+.input-group {
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+.label {
+	width: 90px !important;
+	margin-right: 10px;
+	font-family: Arial;
+}
+
+.input {
+	width: 300px;
+}
+
+.row {
+	display: flex;
+}
+
+.justify-center {
+	height: inherit;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.text-title {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.fixed-input {
+	margin-bottom: 5px !important;
+}
+
+.secondary-color {
+	background-color: #F6FEFF;
+}
+
+.button {
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.right-button-container{
+	position: fixed;
+    right: 50px;
+}
+
+.filled-button{
+	padding-right: -10px;
+	color:#FFFFFF;
+	background-color: #0d6efd;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.btn-danger{
+	color:red !important;
+}
+
+.blue-transparent-button {
+	color: #0d6efd;
+}
+
+.blue-transparent-button:hover {
+	color: #A0C0FF !important;
+}
+
+ table,th, td {
+	border: 1px solid;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+table{
+	border-spacing: 0px !important;
+}
+th,td{
+	width: 100px;
+}
+
+
+a {color:#0d6efd;}         /* Unvisited link  */
+a:visited {color: #0d6efd;} /* Visited link    */
+a:hover {color:#A0C0FF}   /* Mouse over link */
+a:active {color:#A0C0FF;}  /* Selected link   *
